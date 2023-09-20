@@ -1,0 +1,19 @@
+.länkar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid #D6001C;
+    margin: 5px;
+    height: 60px;
+}
+img{
+    max-height: 45%;
+    border: 2px solid black;
+    padding: 3px;
+    margin: 10px;
+}
+.rubrik{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #D6001C;
+}
