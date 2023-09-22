@@ -3,54 +3,70 @@
     flex-direction: row;
     justify-content: space-evenly;
     border: 2px solid #D6001C;
+    border-radius: 10px;
     margin: 5px;
     height: 60px;
 }
 
-img{
-    max-height: 45%;
-    border: 2px solid black;
-    padding: 3px;
-    margin: 10px;
-}
-
 .rubrik{
+    background: url(./img/snow_winter_trees.jpg);
+    background-size: 100%, 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Mountains+of+Christmas";
     display: flex;
     flex-direction: column;
     border: 2px solid #D6001C;
+    border-radius: 10px;
     text-align: center;
     height: 200px;
     /* KAN INTE HITTA HUR MAN FÅR BILDEN ATT STRETCHA SÅ MAN SER HELA. 
     Hittade inget hjälpsamt när jag sökte på det */
-    background: url(./img/snow_winter_trees.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-
-h1{
-    /* Får inte fonten att komma fram??? */
-    font-family: "Mountains+of+Christmas", serif;
-}
-
 .middle{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     border: 2px solid #D6001C;
+    border-radius: 10px;
     padding: 5px;
     gap: 5px;
     margin-top: 5px;
 }
 
-.länkar2{
+.vänster{
     border: 2px solid #D6001C;
+    border-radius: 10px;
+    max-width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.text{
+.mitt{
     border: 2px solid #D6001C;
+    border-radius: 10px;
+    min-width: 50%;
 }
 
-.julgran{
+.höger{
+    background-image: url(./img/christmasTree.jpg);
+    background-size: 100%, 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 2px solid #D6001C;
-    max-width: 100px;
+    padding: 60px;
+    border-radius: 10px;
+    max-width: 15%;
+}
+
+img{
+    max-height: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 10px;
 }
