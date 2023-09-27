@@ -47,16 +47,18 @@
     border: 2px solid #D6001C;
     border-radius: 10px;
     min-width: 50%;
+    gap: 40px;
+    padding: 10px;
 }
 
 .höger{
+    padding: 60px;
     background-image: url(./img/christmasTree.jpg);
-    background-size: 100%, 100%;
     background-position: center;
+    background-size: 100%, auto;
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid #D6001C;
-    padding: 60px;
     border-radius: 10px;
     max-width: 15%;
 }
